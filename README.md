@@ -48,3 +48,7 @@ done
 * Once saved, exit file and change permissions ot apply to all users with **chmod a+x betty**
 * Move the **betty** file into **/bin/** directory or somewhere else in your **$PATH** with **sudo mv betty /bin/**
 * You can now type **betty \<filename\>** to run the Betty linter!
+## 0x00. C - Hello, World
+This project is meant to be a sound introduction to the C programing language. It has several general objectives which can be found listed in the **README.md** file found in **0x00-hello_world** directory
+### Learning Objectives
+* General Introduction to C
