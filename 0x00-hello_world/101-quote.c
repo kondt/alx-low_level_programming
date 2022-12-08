@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+#include <unistd.h>
 
 /**
  * main - Prints a set of characters to standard error without puts and printf
