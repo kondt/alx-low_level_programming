@@ -17,11 +17,11 @@ int main(void)
 			{
 				putchar(c0);
 				putchar(c1);
-			}
-			if (c0 < 56 && c1 < 57)
-			{
-				putchar(',');
-				putchar(' ');
+				if (c0 < 56 && c1 < 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
