@@ -17,7 +17,7 @@ int main(void)
 			{
 				putchar(c0);
 				putchar(c1);
-				if (c0 < 56 && c1 < 57)
+				if (!(c0 == 56 && c1 == 57))
 				{
 					putchar(',');
 					putchar(' ');
@@ -28,4 +28,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}
+100-print_comb3.c}
