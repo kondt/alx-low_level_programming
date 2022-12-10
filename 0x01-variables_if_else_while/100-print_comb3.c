@@ -28,4 +28,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-100-print_comb3.c}
+}
