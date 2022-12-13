@@ -29,7 +29,9 @@ void times_table(void)
 			if (c1 != 9)
 			{
 				_putchar(',');
-				_putchar('\t');
+				_putchar(' ');
+				if (prod < 10)
+					_putchar(' ');
 			}
 			else
 			{
