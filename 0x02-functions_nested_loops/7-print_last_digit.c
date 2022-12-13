@@ -8,5 +8,23 @@
  */
 int print_last_digit(int j)
 {
-	return (j % 10);
+	int last_digit;
+
+	if (j > 0)
+	{
+		last_digit = j % 10;
+		_putchar(last_digit);
+		return (last_digit);
+	}
+	else if (j < 0)
+	{
+		last_digit = (j * -1) % 10;
+		_putchar(last_digit);
+		return (last_digit);
+	}
+	else
+	{
+		_putchar(48);
+		return (0);
+	}
 }
