@@ -29,7 +29,7 @@ void times_table(void)
 			if (c1 != 9)
 			{
 				_putchar(',');
-				_putcahr('\t');
+				_putchar('\t');
 			}
 			else
 			{
