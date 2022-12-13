@@ -18,7 +18,7 @@ void times_table(void)
 			prod = c0 * c1;
 			if (prod < 10)
 			{
-				_putchar(prod);
+				_putchar('0' + prod);
 			}
 			else
 			{
