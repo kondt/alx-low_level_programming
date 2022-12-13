@@ -35,7 +35,6 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar(36);
 				_putchar('\n');
 			}
 			c1++;
