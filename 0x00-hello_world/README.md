@@ -249,7 +249,7 @@ Write a C program that prints the size of various types on the computer it is co
 * You should produce the exact same output as in the example
 * Warnings are allowed
 * Your program should return **0**
-* You might have to install the package **libc6-dev-i386** on your linux to test the **-m32 gcc** option
+* You might have to install the package **libc6-dev-i386** on your linux to test the **-m32 gcc** option\
 Example
 ```
 julien@ubuntu:~/c/0x00$ gcc 6-size.c -m32 -o size32 2> /tmp/32
