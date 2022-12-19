@@ -16,6 +16,7 @@
 * How to find the right header to include in your source code when using a standard library function
 * How does the **main** function influence the return value of the program
 ## Tasks
+
 ### 0. Preprocessor
 Write a script that runs a C file through the preprocessor and save the result into another file.
 * The C file name will be saved in the varaible **$CFILE**
@@ -53,6 +54,7 @@ julien@ubuntu:~/c/0x00$
 * GitHub repository: **alx-low_level_programming**
 * Directory: **0x00-hello_world**
 * File: **0-preprocessor**
+
 ### 1. Compiler
 Write a script that compiles a C file but does not link.
 * The C file name will be saved in the variable **$CFILE**
@@ -81,10 +83,11 @@ julien@ubuntu:~/c/0x00$ cat -v main.o | head
 ^?ELF^B^A^A^@^@^@^@^@^@^@^@^@^A^@>^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^P^B^@^@^@^@^@^@^@^@^@^@@^@^@^@^@^@@^@^K^@^H^@UHM-^IM-eM-8^@^@^@^@]M-C^@GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.2) 5.4.0 20160609^@^T^@^@^@^@^@^@^@^AzR^@^Ax^P^A^[^L^G^HM-^P^A^@^@^\^@^@^@^\^@^@^@^@^@^@^@^K^@^@^@^@A^N^PM-^F^BC^M^FF^L^G^H^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^D^@M-qM-^?^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^E^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^F^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^D^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^@^@^@^R^@^A^@^@^@^@^@^@^@^@^@^K^@^@^@^@^@^@^@^@main.c^@main^@^@^@^@ ^@^@^@^@^@^@^@^B^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@.symtab^@.strtab^@.shstrtab^@.text^@.data^@.bss^@.comment^@.note.GNU-stack^@.rela.eh_frame^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^[^@^@^@^A^@^@^@^F^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@@^@^@^@^@^@^@^@^K^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@!^@^@^@^A^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@K^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@'^@^@^@^H^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@K^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@,^@^@^@^A^@^@^@0^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@K^@^@^@^@^@^@^@5^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@5^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@J^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^@^@^@^@^@^@^@^@8^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@E^@^@^@^D^@^@^@@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M- ^A^@^@^@^@^@^@^X^@^@^@^@^@^@^@    ^@^@^@^F^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@^Q^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-8^A^@^@^@^@^@^@T^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-8^@^@^@^@^@^@^@M-X^@^@^@^@^@^@^@
 ^@^@^@^H^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@  ^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^P^A^@^@^@^@^@^@^M^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@julien@ubuntu:~/c/0x00$
 ```
-### Repo:
+#### Repo:
 * GitHub repository: **alx-low_level_programming**
 * Directory: **0x00-hello_world**
 * File: **1-compiler**
+
 ### 2. Assembler
 Write a script that generates the assembly code of a C code and save it in an output file.
    * The C file name will be saved in the variable **$CFILE**
@@ -136,6 +139,7 @@ julien@ubuntu:~/c/0x00$
 * GitHub repository: **alx-low_level_programming**
 * Directory: **0x00-hello_world**
 * File: **2-assembler**
+
 ### 3. Name
 Write a script that compiles a C file and creates an executable named **cisfun**.
    * The C file name will be saved in the variable **$CFILE**
@@ -164,6 +168,7 @@ julien@ubuntu:~/c/0x00$
 * GitHub repository: **alx-low_level_programming**
 * Directory: **0x00-hello_world**
 * File: **3-name**
+
 ### 4. Hello, puts
 Write a C program that prints exactly **"Programming is like building a multilingual puzzle**, followed by a new line.
 * Use the function **puts**
@@ -181,6 +186,7 @@ julien@ubuntu:~/c/0x00$
 * GitHub repository: **alx-low_level_programming**
 * Directory: **0x00-hello_world**
 * File: **4-puts.c**
+
 ### 5. Hello, printf
 Write a C program tha prints exactly **with proper grammar, but the outcome is a piece of art,**, followed by a new line.
 * Use the function **printf**
@@ -200,6 +206,7 @@ julien@ubuntu:~/c/0x00$
 * GitHub repository: **alx-low_level_programming**
 * Directory: **0x00-hello_world**
 * File: **5-printf.c**
+
 ### 6. Size is not grandeur, and territory does not make a nation
 Write a C program that prints the size of various types on the computer it is compiled and run on.
 * You should produce the exact same output as in the example
@@ -230,6 +237,7 @@ julien@ubuntu:~/c/0x00$
 * GitHub repository: **alx-low_level_programming**
 * Directory: **0x00-hello_world**
 * File: **6-size.c**
+
 ### 7. Intel
 Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
    * The C file name will be saved in the variable **$CFILE**
@@ -280,6 +288,7 @@ julien@ubuntu:~/c/0x00$
 * GitHub repository: **alx-low_level_programming**
 * Directory: **0x00-hello_world**
 * File: **100-intel**
+
 ### 8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
 Write a C program that prints exactly **and the piece of art is useful" - Dora Korpar, 2015-10-19**, followed by a new line, to the standard error.
 * You are not allowed to use any functions listed in the NAME section of the man (3) **printf** or man (3) **puts**
