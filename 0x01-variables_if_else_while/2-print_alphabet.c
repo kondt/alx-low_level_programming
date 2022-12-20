@@ -9,8 +9,8 @@ int main(void)
 {
 	int count;
 
-	count = 97;
-	while (count++ <= 122)
+	count = 96;
+	while (count++ <= 121)
 		putchar(count);
 	putchar('\n');
 	return (0);
