@@ -11,9 +11,9 @@ int main(void)
 
 	count = 96;
 
-	while (n++ <= 121)
+	while (count++ <= 121)
 	{
-		if (n != 101 && n != 113)
+		if (count != 101 && count != 113)
 			putchar(count);
 	}
 	return (0);
