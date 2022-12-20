@@ -1,19 +1,20 @@
 #include <stdio.h>
 
 /**
-  * main - Prints lowercase letters of the alphabet
-  *
-  * Return: Always 0 (Success)
-  */
+ * main - Prints the alphabet in lowercase, then in uppercase then a new line
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int count;
 
-	for (count = 97; count < 123; count++)
+	count = 96;
+	while (count++ <= 121)
 		putchar(count);
-	for (count = 65; count < 91; count++)
+	count = 64;
+	while (count++ <= 89)
 		putchar(count);
 	putchar('\n');
-
 	return (0);
 }
