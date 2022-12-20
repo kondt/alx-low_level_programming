@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 /**
-  * main - Prints Numbers 0 to 9 the \n
-  *
-  * Return: Always 0 (Success)
-  */
+ * main - Prints all single digit base 10 starting from 0, and then a new line
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int count;
+	int num;
 
-	for (count = 48; count < 58; count++)
-		putchar(count);
+	num = -1;
+	while (num++ <= 8)
+		putchar(num + '0');
 	putchar('\n');
 
 	return (0);
