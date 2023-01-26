@@ -58,3 +58,9 @@ This project is meant to be a sound introduction to the C programing language. I
 This project is meant to cover the C Variables, if, else, and while loop. It has several general objectives which can be found listed in the **README.md** file found in **0x01-variables_if_else_while** directory
 ### Learning Objectives
 * General Variables, if else statements and while loops
+
+## 0x02. C - Functions, nested loops
+This project covers Functions and nested loops. Specific objectives can be found listed in the **README.md** file found in **0x02-functions_nested_loops** directory.
+### Learning Objectives
+* Introduction to C functions
+* Nested Loops
