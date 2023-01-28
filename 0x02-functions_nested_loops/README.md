@@ -26,3 +26,20 @@
   compilation. Our **main.c** files might be different from the one shown in the examples
 * The prototypes of all your functions and the prototype of the function **\_putchar** should be included in your header file called **main.h**
 * Don’t forget to push your header file
+
+## Tasks
+### 0. _putchar
+Write a program that prints **\_putchar**, followed by a new line
+* The program should return **0**
+
+```
+julien@ubuntu:~/0x02$  gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-
+putchar
+julien@ubuntu:~/0x02$ ./0-putchar
+_putchar
+julien@ubuntu:~/0x02$
+```
+#### Repo:
+* GitHub repository: **alx-low_level_programming**
+* Directory: **0x02-function_nested_loops**
+* File: **0-putchar.c**
