@@ -1,4 +1,4 @@
-int _putchar(char c);
+#include <main.h>
 
 /**
   * main - Print _putchar followed by a new line
@@ -7,14 +7,12 @@ int _putchar(char c);
   */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	char *str = "_putchar";
+
+	while (str)
+	{
+		_putchar(str);
+		str = str + 1;
+	}
 	return (0);
 }
